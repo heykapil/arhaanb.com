@@ -1,8 +1,9 @@
 <template>
 	<div>
-		<router-link :to="to" class="flexer">
+		<router-link :to="to ? to : '/'" class="flexer">
 			<h5 class="main">{{ title ? title : 'Title' }}</h5>
-			<h5 class="desc">{{ desc ? desc : 'This is a description' }}</h5>
+			<!-- <h5 class="sep">|</h5> -->
+			<h5 class="desc">{{ desc ? desc : null }}</h5>
 		</router-link>
 	</div>
 </template>
@@ -21,7 +22,7 @@ export default {
 .flexer {
 	display: flex;
 	justify-content: start;
-	align-items: baseline;
+	align-items: center;
 	padding: 0.75em 1em;
 	border-radius: 0.5em;
 	transition: 0.3s;
@@ -35,6 +36,10 @@ export default {
 			width: 17%;
 			// margin-right: 0.5em;
 		}
+		// &.sep {
+		// 	margin-right: 1em;
+		// 	color: #69e;
+		// }
 	}
 
 	&:hover {
@@ -44,12 +49,14 @@ export default {
 
 @media (max-width: 750px) {
 	.main {
-		width: auto !important;
-    margin-right: 0.5em !important;
+		// 	width: auto !important;
+		//   margin-right: 0.5em !important;
+		width: 4.75em !important;
+		margin-right: 0.5em !important;
 	}
-  .flexer {
-    margin-bottom: 0.5em;
-  }
+	.flexer {
+		margin-bottom: 0.5em;
+	}
 }
 
 .desc {

@@ -16,11 +16,12 @@
 					<h6 class="zero">designer &middot; developer</h6>
 				</div>
 
-				<p>
+				<p class="zero" style="margin-bottom: 1em">
 					Hello! I'm {{ `${prefix} ${age}` }} year old developer and designer,
 					currently a freshman studying Computer Science. I enjoy participating
 					in Hackathons and Design events, and I've won several of them over the
-					last few years. You can view some of the
+					last few years.
+					<!-- You can view some of the
 					<router-link to="/projects">projects</router-link> I built, or check
 					out my
 					<a
@@ -28,7 +29,7 @@
 						href="//github.com/arhaanb"
 						target="_blank"
 						>GitHub account</a
-					>.
+					>. -->
 				</p>
 
 				<!-- <p>
@@ -59,22 +60,58 @@
 
 		<div class="cont" style="max-width: 43em">
 			<br />
-			<Page title="Portfolio" to="/projects" desc="I like to build stuff" />
-			<Page title="Explore" to="/explore" desc="More arhaanb" />
-			<Page title="Contact" to="/explore#contact" desc="Let's talk" />
+			<Page
+				data-aos="fade-up"
+				title="Portfolio"
+				to="/projects"
+				desc="I like to build stuff"
+			/>
+			<Page
+				data-aos="fade-up"
+				data-aos-delay="100"
+				title="Explore"
+				to="/explore"
+				desc="More arhaanb"
+			/>
+			<Page
+				data-aos="fade-up"
+				data-aos-delay="150"
+				title="Contact"
+				to="/explore#contact"
+				desc="Let's talk"
+			/>
 		</div>
 
 		<div class="navcont">
-			<div data-aos="fade-up" class="pics">
+			<div class="pics">
 				<div class="picsgrid">
 					<div v-for="img in links" :key="img">
-						<img :src="img" alt="img" draggable="false" loading="lazy" />
+						<img
+							data-aos="fade-up"
+							:src="img"
+							alt="img"
+							draggable="false"
+							loading="lazy"
+						/>
 					</div>
 				</div>
-				<h6 class="center zero meirl">me &#38; my friends irl</h6>
-				<h6 class="center" style="opacity: 0.7">penis cock and balls.</h6>
+				<!-- <h6 class="center zero meirl">me &#38; my friends irl</h6> -->
+				<h6 class="center" style="opacity: 0.7">me irl</h6>
 			</div>
 		</div>
+
+		<!-- <div class="cont socialstuff">
+			<h4>My socials</h4>
+			<div class="socialgrid">
+				<Page icon="ig" title="Instagram" />
+				<Page title="Twitter" />
+				<Page title="GitHub" />
+				<Page title="Behance" />
+				<Page title="Spotify" />
+				<Page title="LinkedIn" />
+				<Page title="Email" />
+			</div>
+		</div> -->
 	</main>
 </template>
 
@@ -131,6 +168,11 @@ export default {
 	/* grid-gap: 3em; */
 	grid-template-columns: repeat(3, 1fr);
 }
+.socialgrid {
+	display: grid;
+	/* grid-gap: 3em; */
+	grid-template-columns: repeat(2, 1fr);
+}
 .meirl {
 	/* margin-top: 2em; */
 	font-size: 1.1em;
@@ -139,7 +181,8 @@ export default {
 	.meirl {
 		margin-top: 0;
 	}
-	.picsgrid {
+	.picsgrid,
+	.socialgrid {
 		display: grid;
 		/* grid-gap: 3em; */
 		grid-gap: 0;
