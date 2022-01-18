@@ -80,6 +80,13 @@
 				to="/explore#contact"
 				desc="Let's talk"
 			/>
+				<Page
+				data-aos="fade-up"
+				data-aos-delay="200"
+				title="Posts"
+				to="/posts"
+				desc="I write about my projects sometimes"
+			/>
 		</div>
 
 		<div class="navcont">
