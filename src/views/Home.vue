@@ -11,15 +11,24 @@
 		<br /> -->
 
 			<div data-aos="fade-in">
-				<h4 style="margin-top: 1.5em" class="name">Arhaan Bahadur</h4>
-				<div class="yo" style="margin-bottom: 1.2em">
+				<h4
+					style="margin-top: 1.5em; margin-bottom: -0.35em"
+					class="name fancy"
+				>
+					arhaan bahadur
+				</h4>
+				<div class="yo zero" style="margin-bottom: 0.55em">
 					<h6 class="zero">designer &middot; developer</h6>
 				</div>
 
 				<p class="zero" style="margin-bottom: 1em">
-					Hello! I'm {{ `${prefix} ${age}` }} year old developer and designer,
+					<!-- Hello! I'm {{ `${prefix} ${age}` }} year old developer and designer,
 					currently a freshman studying Computer Science. I enjoy participating
 					in Hackathons and Design events, and I've won several of them over the
+					last few years. Hello!  -->
+					Hello! I’m Arhaan, {{ `${prefix} ${age}` }} year old student studying
+					Computer Science, currently based in New Delhi. I enjoy participating
+					in Hackathons and Design events, and I’ve won several of them over the
 					last few years.
 					<!-- You can view some of the
 					<router-link to="/projects">projects</router-link> I built, or check
@@ -80,7 +89,7 @@
 				to="/explore#contact"
 				desc="Let's talk"
 			/>
-				<Page
+			<Page
 				data-aos="fade-up"
 				data-aos-delay="200"
 				title="Posts"
@@ -203,6 +212,7 @@ export default {
 .yo,
 .name {
 	margin: 0;
+	font-size: 2.15em;
 }
 h1 {
 	font-size: 5em;

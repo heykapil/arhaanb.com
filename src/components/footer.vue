@@ -91,7 +91,8 @@
 }
 
 .socials a {
-	color: #69e;
+	/* color: #69e; */
+	color: var(--red-text);
 	transition: 0.3s;
 	font-size: 1.1em;
 	margin: 0;
@@ -118,7 +119,7 @@
 }
 
 .socials a:hover {
-	opacity: 0.75;
+	opacity: 0.6;
 }
 
 .flexfoot {

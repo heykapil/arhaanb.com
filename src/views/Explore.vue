@@ -1,6 +1,6 @@
 <template>
 	<div class="cont">
-		<h2 class="title">Explore</h2>
+		<h2 class="title fancy">Explore</h2>
 		<p class="sub">Miscellaneous stuff about me.</p>
 
 		<a rel="noopener noreferrer" href="//arhn.us/design" target="_blank">

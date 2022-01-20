@@ -109,11 +109,13 @@ export default {
 }
 
 .navbar .links a.router-link-exact-active {
-	color: rgb(60, 124, 233);
+	color: var(--red-text);
+	// color: rgb(60, 124, 233);
 }
 
 .navbar .links a:hover {
-	color: rgb(60, 124, 233);
+	color: var(--red-text);
+	// color: rgb(60, 124, 233);
 }
 
 .navbar {

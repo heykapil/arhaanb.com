@@ -1,10 +1,11 @@
 fi
 <template>
 	<div class="cont" @mouseleave="hover = false">
-		<h2 class="title">Projects</h2>
+		<h2 class="title fancy">Projects</h2>
 		<p class="zero">
-			These are some of the major projects I've built over the last couple of
-			years.
+			<!-- These are some of the major projects I've built over the last couple of
+			years. -->
+			I like building fun stuff.
 		</p>
 		<div class="bigproj">
 			<Project
