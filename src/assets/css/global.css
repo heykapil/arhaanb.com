@@ -16,7 +16,7 @@ body {
 }
 
 .fancy {
-	font-family: "Augillion DEMO" !important;
+	font-family: "augillion" !important;
 	text-transform: lowercase;
 	color: var(--red-text);
 }
