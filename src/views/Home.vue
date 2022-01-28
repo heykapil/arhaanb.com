@@ -138,12 +138,22 @@ export default {
 			age: 18,
 			prefix: 'an',
 			links: [
-				'https://www.zhayitong.com/assets/img/Frame%201.jpg',
-				'https://www.zhayitong.com/assets/img/Frame%202.jpg',
-				'https://www.zhayitong.com/assets/img/Frame%203.jpg',
-				'https://www.zhayitong.com/assets/img/Frame%204.jpg',
-				'https://www.zhayitong.com/assets/img/Frame%205.jpg',
-				'https://www.zhayitong.com/assets/img/Frame%206.jpg'
+				'https://i.imgur.com/9XABKYA.png',
+				'https://i.imgur.com/Fs8RpqD.png',
+				'https://i.imgur.com/WwPlyPg.png',
+				'https://i.imgur.com/BIWL50Y.png',
+				'https://i.imgur.com/H5Sm2ny.png',
+				'https://i.imgur.com/siqW07Z.png'
+
+				// 'https://www.zhayitong.com/assets/img/Frame%201.jpg',
+				// 'https://www.zhayitong.com/assets/img/Frame%202.jpg',
+				// 'https://www.zhayitong.com/assets/img/Frame%203.jpg',
+				// 'https://www.zhayitong.com/assets/img/Frame%204.jpg',
+				// 'https://www.zhayitong.com/assets/img/Frame%205.jpg',
+				// 'https://www.zhayitong.com/assets/img/Frame%206.jpg'
+
+				// ---
+
 				// 'https://www.zhayitong.com/assets/img/Frame%207.jpg',
 				// 'https://www.zhayitong.com/assets/img/Frame%208.jpg',
 				// 'https://www.zhayitong.com/assets/img/Frame%209.jpg'
