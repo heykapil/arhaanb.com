@@ -138,12 +138,12 @@ export default {
 			age: 18,
 			prefix: 'an',
 			links: [
-				'https://i.imgur.com/9XABKYA.png',
-				'https://i.imgur.com/Fs8RpqD.png',
-				'https://i.imgur.com/WwPlyPg.png',
-				'https://i.imgur.com/BIWL50Y.png',
-				'https://i.imgur.com/H5Sm2ny.png',
-				'https://i.imgur.com/siqW07Z.png'
+				'https://res.cloudinary.com/arhaanb/image/upload/v1643443900/website%20main%20page/img1.png',
+				'https://res.cloudinary.com/arhaanb/image/upload/v1643443898/website%20main%20page/h_2_xubwje.png',
+				'https://res.cloudinary.com/arhaanb/image/upload/v1643443897/website%20main%20page/h_3_xumzkh.png',
+				'https://res.cloudinary.com/arhaanb/image/upload/v1643443897/website%20main%20page/h_4_mnae7p.png',
+				'https://res.cloudinary.com/arhaanb/image/upload/v1643443901/website%20main%20page/h_5_pmkwmj.png',
+				'https://res.cloudinary.com/arhaanb/image/upload/v1643443897/website%20main%20page/h_6_wzchp9.png'
 
 				// 'https://www.zhayitong.com/assets/img/Frame%201.jpg',
 				// 'https://www.zhayitong.com/assets/img/Frame%202.jpg',
