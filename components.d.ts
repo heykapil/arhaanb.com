@@ -12,14 +12,14 @@ declare module 'vue' {
     CarbonLogoGithub: typeof import('~icons/carbon/logo-github')['default']
     CarbonLogoInstagram: typeof import('~icons/carbon/logo-instagram')['default']
     CarbonLogoLinkedin: typeof import('~icons/carbon/logo-linkedin')['default']
-    Contact: typeof import('C:/projects/web/src/components/contact.vue')['default']
-    Footer: typeof import('C:/projects/web/src/components/footer.vue')['default']
-    Page: typeof import('C:/projects/web/src/components/page.vue')['default']
-    Project: typeof import('C:/projects/web/src/components/project.vue')['default']
-    Small: typeof import('C:/projects/web/src/components/small.vue')['default']
-    Spotify: typeof import('C:/projects/web/src/components/spotify.vue')['default']
-    Top: typeof import('C:/projects/web/src/components/top.vue')['default']
-    Website: typeof import('C:/projects/web/src/components/website.vue')['default']
+    Contact: typeof import('C:/projects/arhn/src/components/contact.vue')['default']
+    Footer: typeof import('C:/projects/arhn/src/components/footer.vue')['default']
+    Page: typeof import('C:/projects/arhn/src/components/page.vue')['default']
+    Project: typeof import('C:/projects/arhn/src/components/project.vue')['default']
+    Small: typeof import('C:/projects/arhn/src/components/small.vue')['default']
+    Spotify: typeof import('C:/projects/arhn/src/components/spotify.vue')['default']
+    Top: typeof import('C:/projects/arhn/src/components/top.vue')['default']
+    Website: typeof import('C:/projects/arhn/src/components/website.vue')['default']
   }
 }
 

@@ -3,44 +3,50 @@
 		<h2 class="title fancy">Explore</h2>
 		<p class="sub">Miscellaneous stuff about me.</p>
 
-		<a rel="noopener noreferrer" href="//arhn.us/design" target="_blank">
-			<div data-aos="fade-up" id="design" class="coolbox">
-				<div class="flexbox">
-					<h6>Design</h6>
-					<span><bx-bx-link-external /></span>
+		<div data-aos="fade-up">
+			<a rel="noopener noreferrer" href="//arhn.us/design" target="_blank">
+				<div id="design" class="coolbox">
+					<div class="flexbox">
+						<h6>Design</h6>
+						<span><bx-bx-link-external /></span>
+					</div>
+					<p>
+						(WIP) I'm mostly interested in UI / UX Designs but I enjoy making
+						illustrations and I've also tried out some 3D modelling.
+					</p>
 				</div>
-				<p>
-					(WIP) I'm mostly interested in UI / UX Designs but I enjoy making
-					illustrations and I've also tried out some 3D modelling.
-				</p>
-			</div>
-		</a>
+			</a>
+		</div>
 
-		<a rel="noopener noreferrer" href="//arhn.us/exp" target="_blank">
-			<div data-aos="fade-up" data-aos-delay="100" id="events" class="coolbox">
-				<div class="flexbox">
-					<h6>Achievements</h6>
-					<span><bx-bx-link-external /></span>
+		<div data-aos="fade-up" data-aos-delay="100">
+			<a rel="noopener noreferrer" href="//arhn.us/exp" target="_blank">
+				<div id="events" class="coolbox">
+					<div class="flexbox">
+						<h6>Achievements</h6>
+						<span><bx-bx-link-external /></span>
+					</div>
+					<p>
+						I've participated in over 30 Hackathons, Designathons, Quizzes, etc.
+						Check out some of my wins.
+					</p>
 				</div>
-				<p>
-					I've participated in over 30 Hackathons, Designathons, Quizzes, etc.
-					Check out some of my wins.
-				</p>
-			</div>
-		</a>
+			</a>
+		</div>
 
-		<a rel="noopener noreferrer" href="//arhn.us/events" target="_blank">
-			<div data-aos="fade-up" data-aos-delay="200" id="organ" class="coolbox">
-				<div class="flexbox">
-					<h6>Events</h6>
-					<span><bx-bx-link-external /></span>
+		<div data-aos="fade-up" data-aos-delay="200">
+			<a rel="noopener noreferrer" href="//arhn.us/events" target="_blank">
+				<div id="organ" class="coolbox">
+					<div class="flexbox">
+						<h6>Events</h6>
+						<span><bx-bx-link-external /></span>
+					</div>
+					<p>
+						Over the last few years I've been part of the core teams of a few
+						clubs. Check out some of the events I organized.
+					</p>
 				</div>
-				<p>
-					Over the last few years I've been part of the core teams of a few
-					clubs. Check out some of the events I organized.
-				</p>
-			</div>
-		</a>
+			</a>
+		</div>
 
 		<br /><br />
 
