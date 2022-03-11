@@ -11,12 +11,7 @@
 		<br /> -->
 
 			<div data-aos="fade-in">
-				<h4
-					style="margin-top: 1.5em; margin-bottom: -0.35em"
-					class="name fancy"
-				>
-					arhaan bahadur
-				</h4>
+				<h4 style="" class="name fancy">arhaan bahadur</h4>
 				<div class="yo zero" style="margin-bottom: 0.55em">
 					<h6 class="zero">designer &middot; developer</h6>
 				</div>
@@ -26,10 +21,13 @@
 					currently a freshman studying Computer Science. I enjoy participating
 					in Hackathons and Design events, and I've won several of them over the
 					last few years. Hello!  -->
-					Hello! I’m Arhaan, {{ `${prefix} ${age}` }} year old student studying
-					Computer Science, currently based in New Delhi. I enjoy participating
+					I’m Arhaan, {{ `${prefix} ${age}` }} year old student currently
+					studying Computer Science <strike>at college</strike>. I make
+					<!-- functional and  -->
+					useful products with beautiful user experiences.
+					<!-- I enjoy participating
 					in Hackathons and Design events, and I’ve won several of them over the
-					last few years.
+					last few years. -->
 					<!-- You can view some of the
 					<router-link to="/projects">projects</router-link> I built, or check
 					out my
@@ -54,13 +52,10 @@
 				</p> -->
 
 				<p class="zero">
-					I make
-					<!-- functional and  -->
-					useful products with beautiful user experiences. I'm always looking
-					for opportunities to work on new projects and try out new
-					technologies. If you want to say hi or work with me, feel free to
-					<router-link to="/explore#contact">contact me</router-link> on any of
-					my socials.
+					I'm always looking for opportunities to work on new projects
+					<!-- and try out new technologies. -->
+					or particpate in a hackathon. Feel free to
+					<router-link to="/explore#contact">reach out</router-link>!
 				</p>
 			</div>
 
@@ -94,7 +89,7 @@
 				data-aos-delay="200"
 				title="Posts"
 				to="/posts"
-				desc="I write about my projects sometimes"
+				desc="Quick project reports"
 			/>
 		</div>
 
@@ -224,6 +219,12 @@ export default {
 	margin: 0;
 	font-size: 2.15em;
 }
+
+.name {
+	margin-top: 1.5em;
+	margin-bottom: -0.35em;
+}
+
 h1 {
 	font-size: 5em;
 	margin: 0;
@@ -276,6 +277,9 @@ img.topimg {
 @media (max-width: 750px) {
 	.topimg {
 		margin-top: 0;
+	}
+	.name {
+		margin-top: 0.75em;
 	}
 }
 </style>

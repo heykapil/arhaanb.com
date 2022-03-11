@@ -2,7 +2,8 @@
 	--c-bg: #fff;
 	--c-scrollbar: #bbb;
 	--c-scrollbar-hover: rgb(223, 223, 223);
-	--red-text: #ff983a
+	--red-text: #ff983a;
+	--bg-color: #FFF3E6;
 }
 
 body {
@@ -12,7 +13,7 @@ body {
 	-moz-animation: gradAnim 8s ease infinite;
 	-o-animation: gradAnim 8s ease infinite;
 	animation: gradAnim 8s ease infinite; */
-	background-color: #FFF3E6;
+	background-color: var(--bg-color);
 }
 
 .fancy {

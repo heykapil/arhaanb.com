@@ -158,7 +158,7 @@ export default {
 .fullnav {
 	width: 100%;
 	height: 100vh;
-	background-color: #fff;
+	background-color: var(--bg-color);
 	position: fixed;
 	top: 0;
 	z-index: 20;
@@ -188,7 +188,7 @@ export default {
 		}
 	}
 	a.router-link-exact-active {
-		color: #69e;
+		color: var(--red-text);
 	}
 }
 
@@ -235,5 +235,6 @@ export default {
 
 .back {
 	font-size: 1em !important;
+	margin-top: -0.25em;
 }
 </style>
