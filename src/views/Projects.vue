@@ -5,7 +5,7 @@ fi
 		<p class="zero">
 			<!-- These are some of the major projects I've built over the last couple of
 			years. -->
-			I like building fun stuff.
+			Building fun stuff with a focus on good UX.
 		</p>
 		<div class="bigproj">
 			<Project

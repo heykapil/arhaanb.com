@@ -54,7 +54,7 @@
 				<p class="zero">
 					I'm always looking for opportunities to work on new projects
 					<!-- and try out new technologies. -->
-					or particpate in a hackathon. Feel free to
+					or participate in a hackathon. Please feel free to
 					<router-link to="/explore#contact">reach out</router-link>!
 				</p>
 			</div>
