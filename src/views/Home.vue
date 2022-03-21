@@ -93,7 +93,21 @@
 			/>
 		</div>
 
-		<div class="navcont">
+		<div class="cont">
+			<div class="flex-center">
+				<div class="six columns">
+					<img
+						src="https://i.imgur.com/T4C0yxz.png"
+						alt=""
+						class="topimg"
+						style="width: 100%; margin-top: 3em; border-radius: 0.5em"
+					/>
+					<h6 class="center" style="opacity: 0.7">me irl</h6>
+				</div>
+			</div>
+		</div>
+
+		<!-- <div class="navcont">
 			<div class="pics">
 				<div class="picsgrid">
 					<div v-for="img in links" :key="img">
@@ -106,10 +120,10 @@
 						/>
 					</div>
 				</div>
-				<!-- <h6 class="center zero meirl">me &#38; my friends irl</h6> -->
+				<h6 class="center zero meirl">me &#38; my friends irl</h6>
 				<h6 class="center" style="opacity: 0.7">me irl</h6>
 			</div>
-		</div>
+		</div> -->
 
 		<!-- <div class="cont socialstuff">
 			<h4>My socials</h4>
