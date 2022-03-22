@@ -97,8 +97,10 @@
 			<div class="flex-center">
 				<div class="six columns">
 					<img
-						src="https://i.imgur.com/T4C0yxz.png"
-						alt=""
+						draggable="false"
+						loading="lazy"
+						src="/sqr.png"
+						alt="me irl (fr)"
 						class="topimg"
 						style="width: 100%; margin-top: 3em; border-radius: 0.5em"
 					/>
