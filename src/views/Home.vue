@@ -22,7 +22,8 @@
 					in Hackathons and Design events, and I've won several of them over the
 					last few years. Hello!  -->
 					I’m Arhaan, {{ `${prefix} ${age}` }} year old student currently
-					studying Computer Science <strike>at college</strike>. I make
+					studying Computer Science. I make
+					<!-- <strike>at college</strike> -->
 					<!-- functional and  -->
 					useful products with beautiful user experiences.
 					<!-- I enjoy participating
@@ -52,7 +53,7 @@
 				</p> -->
 
 				<p class="zero">
-					I'm always looking for opportunities to work on new projects
+					I’m always looking for opportunities to work on new projects
 					<!-- and try out new technologies. -->
 					or participate in a hackathon. Please feel free to
 					<router-link to="/explore#contact">reach out</router-link>!
