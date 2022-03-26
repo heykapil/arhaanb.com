@@ -50,12 +50,14 @@ export default {
 	margin: 0;
 	margin-bottom: 0.2em;
 	font-size: 1.1em;
+	font-weight: 400;
 }
 
 .description {
 	margin: 0;
 	font-size: 0.9em;
-	opacity: 0.5;
+	opacity: 0.8;
+	font-weight: 300;
 }
 
 .project {
