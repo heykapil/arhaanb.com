@@ -25,7 +25,7 @@ export const routes = [
 		component: LinkPlus
 	},
 	{
-		path: '/spotivity',
+		path: '/notion',
 		meta: { title: 'Spotivity' },
 		component: Spotivity
 	},

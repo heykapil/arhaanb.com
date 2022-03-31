@@ -57,9 +57,9 @@
 		</transition>
 
 		<main>
-			<transition name="fade" mode="out-in">
-				<router-view />
-			</transition>
+			<!-- <transition name="fade" mode="out-in"> -->
+				<router-view :key="$route.params.id" />
+			<!-- </transition> -->
 		</main>
 
 		<div v-if="$route.meta.title !== 'notfound'" class="cont">
@@ -87,6 +87,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import 'vue3-notion/dist/style.css'; /* optional Notion-like styles */
+
 .navbar .navcont,
 .navcont .topsec {
 	display: flex;
