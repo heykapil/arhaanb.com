@@ -41,6 +41,18 @@ export const routes = [
 			}
 		}
 	},
+	{
+		path: '/p',
+		redirect: (to) => {
+			return { path: `/projects` }
+		}
+	},
+	{
+		path: '/project',
+		redirect: (to) => {
+			return { path: `/projects` }
+		}
+	},
 	{ path: '/p/:id', name: 'Page', component: Page },
 	{ path: '/:pathMatch(.*)', component: NotFound, meta: { title: 'notfound' } }
 ]
