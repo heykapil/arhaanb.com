@@ -163,7 +163,6 @@ strong {
 .yo a {
 	margin-right: 1em;
 	border: none;
-	/* color: rgb(8, 75, 119); */
 	color: var(--red-text);
 	margin-bottom: 0.8em;
 }

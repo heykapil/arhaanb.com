@@ -10,11 +10,8 @@ const data = ref()
 
 onMounted(async () => {
 	data.value = await getPageBlocks(
-		projects.find((x) => x.id == route.params.id)?.notion ||
-			'bc97b55870d9479181facc653dd9a6f6 j'
+		projects.find((x) => x.id == route.params.id)?.notion || undefined
 	)
-
-	// console.log(data?.value || 'no page found')
 })
 </script>
 
@@ -36,6 +33,15 @@ onMounted(async () => {
 </template>
 
 <style>
+/* override notion styles */
+.notion-h1 {
+	margin-bottom: 0.3em !important;
+}
+
+.notion-text em {
+	font-style: italic;
+}
+
 .errnotion {
 	margin-top: -5em;
 	margin-bottom: 11em;

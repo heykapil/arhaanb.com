@@ -15,12 +15,4 @@ const { data: blockMap } = useGetPageBlocks('bc97b55870d9479181facc653dd9a6f6')
 	</main>
 </template>
 
-<style>
-.notion-h1 {
-	margin-bottom: 0.3em !important;
-}
-
-.notion-text em {
-	font-style: italic;
-}
-</style>
+<style></style>
