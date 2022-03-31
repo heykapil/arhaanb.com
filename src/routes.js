@@ -6,6 +6,7 @@ import NotFound from './views/NotFound.vue'
 // Projects
 import LinkPlus from './views/projects/linkplus.vue'
 import Spotivity from './views/projects/spotivity.vue'
+import Page from './views/projects/project.vue'
 
 export const routes = [
 	{ path: '/', component: Home, meta: { title: 'Home' } },
@@ -29,5 +30,6 @@ export const routes = [
 		meta: { title: 'Spotivity' },
 		component: Spotivity
 	},
+	{ path: "/p/:id", name: "Page", component: Page },
 	{ path: '/:pathMatch(.*)', component: NotFound, meta: { title: 'notfound' } }
 ]
