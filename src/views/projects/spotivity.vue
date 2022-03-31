@@ -26,6 +26,10 @@ const { data: blockMap } = useGetPageBlocks(
 	margin-bottom: 0.3em !important;
 }
 
+.notion-text em {
+	font-style: italic;
+}
+
 img {
 	user-drag: none;
 	-webkit-user-drag: none;
@@ -39,7 +43,7 @@ img {
 } */
 
 /* Loader */
-.loadind{
+.loadind {
 	height: 71vh;
 	display: flex;
 	justify-content: center;
