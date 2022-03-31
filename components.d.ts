@@ -14,6 +14,7 @@ declare module 'vue' {
     CarbonLogoLinkedin: typeof import('~icons/carbon/logo-linkedin')['default']
     Contact: typeof import('C:/projects/arhn/src/components/contact.vue')['default']
     Footer: typeof import('C:/projects/arhn/src/components/footer.vue')['default']
+    Notionloader: typeof import('C:/projects/arhn/src/components/notionloader.vue')['default']
     Page: typeof import('C:/projects/arhn/src/components/page.vue')['default']
     Project: typeof import('C:/projects/arhn/src/components/project.vue')['default']
     Small: typeof import('C:/projects/arhn/src/components/small.vue')['default']

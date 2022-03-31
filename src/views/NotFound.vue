@@ -20,7 +20,7 @@
 				<router-link to="/explore#contact">contact me</router-link> if you think
 				this is a mistake.
 			</p>
-			<div class="yo">
+			<div v-if="!nosocials" class="yo">
 				<a
 					href="https://twitter.com/arhaanbahadur"
 					rel="noopener noreferrer"
@@ -78,6 +78,14 @@
 		</div>
 	</main>
 </template>
+
+<script>
+export default {
+	props: {
+		nosocials: Boolean
+	}
+}
+</script>
 
 <style scoped>
 .forofour {

@@ -4,8 +4,8 @@ import Explore from './views/Explore.vue'
 import NotFound from './views/NotFound.vue'
 
 // Projects
-import LinkPlus from './views/projects/linkplus.vue'
-import Spotivity from './views/projects/spotivity.vue'
+// import LinkPlus from './views/projects/linkplus.vue'
+import Notion from './views/projects/notion.vue'
 import Page from './views/projects/project.vue'
 
 export const routes = [
@@ -20,16 +20,27 @@ export const routes = [
 		meta: { title: 'Explore' },
 		component: Explore
 	},
+	// {
+	// 	path: '/notion',
+	// 	meta: { title: 'Notion' },
+	// 	component: Notion
+	// },
 	{
-		path: '/projects/linkplus',
-		meta: { title: 'LinkPlusAI' },
-		component: LinkPlus
+		path: '/projects/:proj',
+		redirect: (to) => {
+			return {
+				path: `/p/${to.params.proj}`
+			}
+		}
 	},
 	{
-		path: '/notion',
-		meta: { title: 'Spotivity' },
-		component: Spotivity
+		path: '/project/:proj',
+		redirect: (to) => {
+			return {
+				path: `/p/${to.params.proj}`
+			}
+		}
 	},
-	{ path: "/p/:id", name: "Page", component: Page },
+	{ path: '/p/:id', name: 'Page', component: Page },
 	{ path: '/:pathMatch(.*)', component: NotFound, meta: { title: 'notfound' } }
 ]
