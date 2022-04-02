@@ -111,7 +111,7 @@ textarea {
 	background-color: rgba($color: #fff, $alpha: 0.2) !important;
 	min-width: 100%;
 	max-width: 100%;
-	font-family: "Colfax";
+	font-family: "Satoshi";
 	transition: 0.2s;
 }
 
@@ -128,7 +128,7 @@ input:focus {
 }
 
 button {
-	font-family: "Colfax";
+	font-family: "Satoshi";
 	text-transform: capitalize;
 }
 
