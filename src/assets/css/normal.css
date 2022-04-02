@@ -141,7 +141,7 @@ html {
 body {
 	font-size: 1.6rem;
 	line-height: 1.6;
-	font-family: 'Satoshi';
+	font-family: var(--fontSans);
 	color: #060c17;
 }
 
