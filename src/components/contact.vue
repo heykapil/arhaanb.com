@@ -4,17 +4,30 @@
 		<p class="sub">
 			Let me know what you think about this website! Or let's work on a project
 			together!
-			<span
-				v-if="!submitted"
-			>I'll try to get back to you as soon as possible.</span>
+			<span v-if="!submitted">
+				I'll try to get back to you as soon as possible. </span
+			>Alternatively, you can email me at
+			<a href="mailto:arhaanb@gmail.com">arhaanb@gmail.com</a>.
 		</p>
 
 		<div class="row">
 			<!-- <div class="flex-center"> -->
 			<div class="seven columns">
 				<form v-if="!submitted" @submit.prevent="submitForm()">
-					<input type="text" :disabled="loading" v-model="form.name" required placeholder="Name" />
-					<input type="email" v-model="form.email" required placeholder="Email" :disabled="loading" />
+					<input
+						type="text"
+						:disabled="loading"
+						v-model="form.name"
+						required
+						placeholder="Name"
+					/>
+					<input
+						type="email"
+						v-model="form.email"
+						required
+						placeholder="Email"
+						:disabled="loading"
+					/>
 					<textarea
 						type="text"
 						v-model="form.message"
@@ -32,7 +45,7 @@
 							:disabled="loading"
 							class="cool u-pull-right"
 						>
-							<span v-if="!loading">Send</span>
+							<span v-if="!loading">Send message</span>
 							<span v-if="loading">
 								<div class="loader"></div>
 							</span>
@@ -43,10 +56,11 @@
 			</div>
 			<div class="u-cf"></div>
 			<div v-if="submitted">
-				<p style="font-size: 1.2em">Thank you for the message! I'll get back to you as soon as possible.</p>
+				<p style="font-size: 1.2em">
+					Thank you for the message! I'll get back to you as soon as possible.
+				</p>
 				<br />
 			</div>
-			<!-- </div> -->
 		</div>
 	</main>
 </template>
@@ -119,22 +133,20 @@ textarea {
 	min-height: 6em;
 }
 
+input:focus,
 textarea:focus {
-	border-color: #69e;
-}
-
-input:focus {
-	border-color: #69e !important;
+	border-color: var(--red-text) !important;
 }
 
 button {
 	font-family: var(--fontSans);
-	text-transform: capitalize;
+	text-transform: initial;
 }
 
 button.cool {
-	background-color: #74a5ff6e;
-	color: rgb(8, 41, 112);
+	// ff983a
+	background-color: #ff993a32;
+	color: #a0550f;
 	border: none;
 	transition: 0.3s;
 	letter-spacing: 0;
@@ -148,7 +160,7 @@ button.cool:hover:not(:disabled) {
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
-	background-color: #7da3e6af;
+	background-color: #ff993a5b;
 }
 
 button.cool:disabled {
@@ -156,7 +168,7 @@ button.cool:disabled {
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
-	background-color: rgb(138, 177, 245);
+	background-color: #ff993a5b;
 	cursor: wait;
 }
 
@@ -171,10 +183,11 @@ button.cool:disabled {
 	margin: 0 auto;
 	font-size: 10px;
 	position: relative;
-	border-top: 0.2em solid rgba(255, 255, 255, 0.2);
-	border-right: 0.2em solid rgba(255, 255, 255, 0.2);
-	border-bottom: 0.2em solid rgba(255, 255, 255, 0.2);
-	border-left: 0.2em solid #ffffff;
+	border: 0.2em solid rgba(255, 255, 255, 0.847);
+	// border-right: 0.2em solid rgba(255, 255, 255, 0.2);
+	// border-bottom: 0.2em solid rgba(255, 255, 255, 0.2);
+	border-left: 0.2em solid #a0550f;
+	// border-left: 0.2em solid #fff;
 	-webkit-transform: translateZ(0);
 	-ms-transform: translateZ(0);
 	transform: translateZ(0);
