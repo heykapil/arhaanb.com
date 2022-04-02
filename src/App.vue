@@ -7,13 +7,7 @@
 					<span>Arhaan Bahadur</span>
 				</div>
 				<!-- <router-link v-else to="/"> -->
-				<img
-					draggable="false"
-					class="logo"
-					src="/fav.png"
-					alt="Arhaan's logo"
-					v-else
-				/>
+				<img draggable="false" class="logo" src="/fav.png" alt="logo" v-else />
 				<!-- </router-link> -->
 
 				<div class="links">
@@ -23,7 +17,7 @@
 				</div>
 
 				<div class="ham" @click="nav = !nav">
-					<img src="@/assets/img/ham.svg" alt="" />
+					<img src="@/assets/img/ham.svg" alt="Open navbar" />
 				</div>
 			</div>
 		</nav>
@@ -35,19 +29,15 @@
 						<h1>&nbsp;</h1>
 
 						<div class="ham" @click="nav = !nav">
-							<img src="@/assets/img/close.svg" alt="" />
+							<img src="@/assets/img/close.svg" alt="Close navbar" />
 						</div>
 					</div>
 
 					<div class="navdata">
 						<div class="flexer">
 							<router-link to="/" @click="nav = !nav">Home</router-link>
-							<router-link to="/projects" @click="nav = !nav">
-								Projects
-							</router-link>
-							<router-link to="/explore" @click="nav = !nav"
-								>Explore</router-link
-							>
+							<router-link to="/projects" @click="nav = !nav">Projects</router-link>
+							<router-link to="/explore" @click="nav = !nav">Explore</router-link>
 						</div>
 
 						<!-- <div class="btm">Arhaan Bahadur</div> -->
@@ -57,9 +47,9 @@
 		</transition>
 
 		<main>
-			<!-- <transition name="fade" mode="out-in"> -->
-				<router-view :key="$route.params.id" />
-			<!-- </transition> -->
+			<transition name="fade" mode="out-in">
+				<router-view />
+			</transition>
 		</main>
 
 		<div v-if="$route.meta.title !== 'notfound'" class="cont">
@@ -87,7 +77,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import 'vue3-notion/dist/style.css'; /* optional Notion-like styles */
+@import "vue3-notion/dist/style.css"; /* optional Notion-like styles */
 
 .navbar .navcont,
 .navcont .topsec {

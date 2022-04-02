@@ -40,7 +40,7 @@ export default {
 		}
 	},
 	methods: {
-		getHover() {}
+		getHover() { }
 	}
 }
 </script>

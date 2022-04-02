@@ -5,8 +5,7 @@
 				rel="noopener noreferrer"
 				href="https://github.com/arhaanb/website#readme"
 				target="_blank"
-				>About this website</a
-			>
+			>About this website</a>
 		</h5>
 
 		<p>
@@ -17,9 +16,7 @@
 		</p>
 		<p>
 			It's been deployed to
-			<a rel="noopener noreferrer" href="//vercel.com" target="_blank"
-				>Vercel</a
-			>
+			<a rel="noopener noreferrer" href="//vercel.com" target="_blank">Vercel</a>
 			and it takes advantage of it's serverless functions for features like the
 			realtime Spotify currently playing indicator and contact form. This
 			website is Open Sourced at
@@ -27,8 +24,9 @@
 				rel="noopener noreferrer"
 				href="//github.com/arhaanb/website"
 				target="_blank"
-				>github.com/<wbr />arhaanb/<wbr />website</a
-			>. Leave a star!
+			>
+				github.com/<wbr />arhaanb/<wbr />website
+			</a>. Leave a star!
 		</p>
 	</div>
 </template>

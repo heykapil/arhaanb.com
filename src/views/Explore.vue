@@ -8,7 +8,9 @@
 				<div id="design" class="coolbox">
 					<div class="flexbox">
 						<h6>Design</h6>
-						<span><bx-bx-link-external /></span>
+						<span>
+							<bx-bx-link-external />
+						</span>
 					</div>
 					<p>
 						(WIP) I'm mostly interested in UI / UX Designs but I enjoy making
@@ -23,7 +25,9 @@
 				<div id="events" class="coolbox">
 					<div class="flexbox">
 						<h6>Achievements</h6>
-						<span><bx-bx-link-external /></span>
+						<span>
+							<bx-bx-link-external />
+						</span>
 					</div>
 					<p>
 						I've participated in over 30 Hackathons, Designathons, Quizzes, etc.
@@ -38,7 +42,9 @@
 				<div id="organ" class="coolbox">
 					<div class="flexbox">
 						<h6>Events</h6>
-						<span><bx-bx-link-external /></span>
+						<span>
+							<bx-bx-link-external />
+						</span>
 					</div>
 					<p>
 						Over the last few years I've been part of the core teams of a few
@@ -48,7 +54,8 @@
 			</a>
 		</div>
 
-		<br /><br />
+		<br />
+		<br />
 
 		<Top id="top-tracks" style="margin-bottom: 4em" />
 

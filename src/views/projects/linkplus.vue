@@ -1,7 +1,7 @@
 <template>
 	<main>
 		<div class="navcont">
-			<img src="https://i.imgur.com/u8g9pHc.png" draggable="false" alt="" />
+			<img src="https://i.imgur.com/u8g9pHc.png" draggable="false" />
 		</div>
 		<div class="navcont">
 			<div class="row">
@@ -29,7 +29,7 @@ img {
 body,
 html,
 * {
-	font-family: 'Inter', sans-serif !important;
+	font-family: "Inter", sans-serif !important;
 	font-weight: 600;
 }
 

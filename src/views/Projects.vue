@@ -4,7 +4,7 @@ fi
 		<h2 class="title fancy">Projects</h2>
 		<p class="zero">
 			<!-- These are some of the major projects I've built over the last couple of
-			years. -->
+			years.-->
 			Building fun stuff with a focus on good UX.
 		</p>
 		<div class="bigproj">
@@ -65,7 +65,8 @@ fi
 			<div @mouseover="hover = false">
 				<h2 class="othsmlproj">Other small projects</h2>
 				<p>
-					I made some of these projects as a <i>freelancer</i>, or to help me
+					I made some of these projects as a
+					<i>freelancer</i>, or to help me
 					automate some of my manual tiring work. There's also some
 					<i>little apps</i> I made just to test out a new technology or
 					framework that I was interested in learning.
@@ -104,8 +105,7 @@ fi
 							rel="noopener noreferrer"
 							href="//github.com/arhaanb"
 							target="_blank"
-							>GitHub (@arhaanb)</a
-						>
+						>GitHub (@arhaanb)</a>
 						for more. Most of my projects are open source.
 					</p>
 				</div>

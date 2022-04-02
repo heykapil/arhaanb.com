@@ -4,29 +4,17 @@
 		<p class="sub">
 			Let me know what you think about this website! Or let's work on a project
 			together!
-			<span v-if="!submitted"
-				>I'll try to get back to you as soon as possible.</span
-			>
+			<span
+				v-if="!submitted"
+			>I'll try to get back to you as soon as possible.</span>
 		</p>
 
 		<div class="row">
 			<!-- <div class="flex-center"> -->
 			<div class="seven columns">
 				<form v-if="!submitted" @submit.prevent="submitForm()">
-					<input
-						type="text"
-						:disabled="loading"
-						v-model="form.name"
-						required
-						placeholder="Name"
-					/>
-					<input
-						type="email"
-						v-model="form.email"
-						required
-						placeholder="Email"
-						:disabled="loading"
-					/>
+					<input type="text" :disabled="loading" v-model="form.name" required placeholder="Name" />
+					<input type="email" v-model="form.email" required placeholder="Email" :disabled="loading" />
 					<textarea
 						type="text"
 						v-model="form.message"
@@ -45,7 +33,9 @@
 							class="cool u-pull-right"
 						>
 							<span v-if="!loading">Send</span>
-							<span v-if="loading"><div class="loader"></div></span>
+							<span v-if="loading">
+								<div class="loader"></div>
+							</span>
 						</button>
 					</div>
 					<br />
@@ -53,9 +43,7 @@
 			</div>
 			<div class="u-cf"></div>
 			<div v-if="submitted">
-				<p style="font-size: 1.2em">
-					Thank you for the message! I'll get back to you as soon as possible.
-				</p>
+				<p style="font-size: 1.2em">Thank you for the message! I'll get back to you as soon as possible.</p>
 				<br />
 			</div>
 			<!-- </div> -->
@@ -123,7 +111,7 @@ textarea {
 	background-color: rgba($color: #fff, $alpha: 0.2) !important;
 	min-width: 100%;
 	max-width: 100%;
-	font-family: 'Colfax';
+	font-family: "Colfax";
 	transition: 0.2s;
 }
 
@@ -140,7 +128,7 @@ input:focus {
 }
 
 button {
-	font-family: 'Colfax';
+	font-family: "Colfax";
 	text-transform: capitalize;
 }
 

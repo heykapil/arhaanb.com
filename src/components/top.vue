@@ -4,24 +4,14 @@
 		<p>My top tracks from Spotify this month</p>
 
 		<div v-if="songs">
-			<div
-				v-for="(song, index) in songs.slice(0, 5)"
-				:key="song.songUrl"
-				data-aos="fade-right"
-			>
+			<div v-for="(song, index) in songs.slice(0, 5)" :key="song.songUrl" data-aos="fade-right">
 				<a rel="noopener noreferrer" target="_blank" :href="song.songUrl">
 					<div class="song">
 						<div class="flex">
-							<h1 class="index noselect mono">
-								{{ index + 1 }}
-							</h1>
+							<h1 class="index noselect mono">{{ index + 1 }}</h1>
 							<div class="songinfo">
-								<h4 class="title" :title="song?.title || false">
-									{{ song?.title || 'Error' }}
-								</h4>
-								<h5 class="artist" :title="song?.artist || false">
-									{{ song?.artist || 'Error' }}
-								</h5>
+								<h4 class="title" :title="song?.title || false">{{ song?.title || 'Error' }}</h4>
+								<h5 class="artist" :title="song?.artist || false">{{ song?.artist || 'Error' }}</h5>
 							</div>
 						</div>
 					</div>
@@ -32,21 +22,13 @@
 			<div v-for="i in 5" :key="i" data-aos="fade-right">
 				<div class="song loading">
 					<div class="flex">
-						<h1 class="index noselect mono">
-							{{ i }}
-						</h1>
+						<h1 class="index noselect mono">{{ i }}</h1>
 						<div class="loadinfo">
 							<h4 class="title">
-								<span
-									class="skeleton-box"
-									:style="`width: ${getRandom(45, 80)}%`"
-								></span>
+								<span class="skeleton-box" :style="`width: ${getRandom(45, 80)}%`"></span>
 							</h4>
 							<h5 class="artist">
-								<span
-									class="skeleton-box"
-									:style="`width: ${getRandom(45, 80)}%`"
-								></span>
+								<span class="skeleton-box" :style="`width: ${getRandom(45, 80)}%`"></span>
 							</h5>
 						</div>
 					</div>
@@ -167,7 +149,7 @@ a:hover {
 			rgba(#fff, 0)
 		);
 		animation: shimmer 2s infinite;
-		content: '';
+		content: "";
 	}
 	@keyframes shimmer {
 		100% {

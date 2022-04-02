@@ -8,10 +8,10 @@
 			alt="Arhaan Bahadur"
 			draggable="false"
 		/>
-		<br /> -->
+			<br />-->
 
 			<div data-aos="fade-in">
-				<h4 style="" class="name fancy">arhaan bahadur</h4>
+				<h4 style class="name fancy">arhaan bahadur</h4>
 				<div class="yo zero" style="margin-bottom: 0.55em">
 					<h6 class="zero">designer &middot; developer</h6>
 				</div>
@@ -20,7 +20,7 @@
 					<!-- Hello! I'm {{ `${prefix} ${age}` }} year old developer and designer,
 					currently a freshman studying Computer Science. I enjoy participating
 					in Hackathons and Design events, and I've won several of them over the
-					last few years. Hello!  -->
+					last few years. Hello!-->
 					I’m Arhaan, {{ `${prefix} ${age}` }} year old student currently
 					studying Computer Science. I make
 					<!-- <strike>at college</strike> -->
@@ -28,7 +28,7 @@
 					useful products with beautiful user experiences.
 					<!-- I enjoy participating
 					in Hackathons and Design events, and I’ve won several of them over the
-					last few years. -->
+					last few years.-->
 					<!-- You can view some of the
 					<router-link to="/projects">projects</router-link> I built, or check
 					out my
@@ -37,7 +37,7 @@
 						href="//github.com/arhaanb"
 						target="_blank"
 						>GitHub account</a
-					>. -->
+					>.-->
 				</p>
 
 				<!-- <p>
@@ -50,7 +50,7 @@
 					<a rel="noopener noreferrer" href="//minet.co" target="_blank"
 						>MINET</a
 					>.
-				</p> -->
+				</p>-->
 
 				<p class="zero">
 					I’m always looking for opportunities to work on new projects
@@ -65,19 +65,8 @@
 
 		<div class="cont" style="max-width: 43em">
 			<br />
-			<Page
-				data-aos="fade-up"
-				title="Portfolio"
-				to="/projects"
-				desc="I like to build stuff"
-			/>
-			<Page
-				data-aos="fade-up"
-				data-aos-delay="100"
-				title="Explore"
-				to="/explore"
-				desc="More arhaanb"
-			/>
+			<Page data-aos="fade-up" title="Portfolio" to="/projects" desc="I like to build stuff" />
+			<Page data-aos="fade-up" data-aos-delay="100" title="Explore" to="/explore" desc="More arhaanb" />
 			<Page
 				data-aos="fade-up"
 				data-aos-delay="150"
@@ -91,7 +80,7 @@
 				title="Posts"
 				to="/posts"
 				desc="Quick project reports"
-			/> -->
+			/>-->
 		</div>
 
 		<div class="cont">
@@ -126,7 +115,7 @@
 				<h6 class="center zero meirl">me &#38; my friends irl</h6>
 				<h6 class="center" style="opacity: 0.7">me irl</h6>
 			</div>
-		</div> -->
+		</div>-->
 
 		<!-- <div class="cont socialstuff">
 			<h4>My socials</h4>
@@ -139,7 +128,7 @@
 				<Page title="LinkedIn" />
 				<Page title="Email" />
 			</div>
-		</div> -->
+		</div>-->
 	</main>
 </template>
 

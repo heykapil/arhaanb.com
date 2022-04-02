@@ -1,16 +1,12 @@
 <template>
 	<div data-aos="fade-up" data-aos-duration="500" class="project noselect">
-		<a
-			rel="noopener noreferrer"
-			v-if="!intlink"
-			class="link"
-			:href="link"
-			target="_blank"
-		>
+		<a rel="noopener noreferrer" v-if="!intlink" class="link" :href="link" target="_blank">
 			<div class="card">
 				<img loading="lazy" class="img" :alt="name" :src="img" />
 				<div class="info">
-					<h1 class="title"><span v-html="title"></span></h1>
+					<h1 class="title">
+						<span v-html="title"></span>
+					</h1>
 					<p class="txt" v-html="desc"></p>
 				</div>
 			</div>
@@ -20,7 +16,9 @@
 			<div class="card">
 				<img loading="lazy" class="img" :alt="name" :src="img" />
 				<div class="info">
-					<h1 class="title"><span v-html="title"></span></h1>
+					<h1 class="title">
+						<span v-html="title"></span>
+					</h1>
 					<p class="txt" v-html="desc"></p>
 				</div>
 			</div>
@@ -68,7 +66,7 @@ export default {
 		}
 	}
 	&:before {
-		content: '';
+		content: "";
 		position: absolute;
 		top: 0;
 		left: 0;
