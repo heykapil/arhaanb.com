@@ -12,37 +12,66 @@
 					:href="`https://arhn.us${$route.fullPath}`"
 					style="word-wrap: break-word"
 					target="_blank"
-				>{{ `arhn.us${$route.fullPath}` }}</a>.
+					>{{ `arhn.us${$route.fullPath}` }}</a
+				>.
 			</p>
 			<p class="btm">
 				Or you can
 				<router-link to="/">go back home</router-link>, or
-				<router-link to="/explore#contact">contact me</router-link>if you think
+				<router-link to="/explore#contact">contact me</router-link> if you think
 				this is a mistake.
 			</p>
 			<div v-if="!nosocials" class="yo">
-				<a href="https://twitter.com/arhaanbahadur" rel="noopener noreferrer" target="_blank">
+				<a
+					href="https://twitter.com/arhaanbahadur"
+					rel="noopener noreferrer"
+					target="_blank"
+				>
 					<bx-bxl-twitter />
 				</a>
-				<a href="https://instagram.com/arhaan_bahadur" rel="noopener noreferrer" target="_blank">
+				<a
+					href="https://instagram.com/arhaan_bahadur"
+					rel="noopener noreferrer"
+					target="_blank"
+				>
 					<carbon-logo-instagram />
 				</a>
-				<a href="https://github.com/arhaanb" rel="noopener noreferrer" target="_blank">
+				<a
+					href="https://github.com/arhaanb"
+					rel="noopener noreferrer"
+					target="_blank"
+				>
 					<carbon-logo-github />
 				</a>
-				<a href="https://open.spotify.com/user/arhaanb" rel="noopener noreferrer" target="_blank">
+				<a
+					href="https://open.spotify.com/user/arhaanb"
+					rel="noopener noreferrer"
+					target="_blank"
+				>
 					<bx-bxl-spotify />
 				</a>
 
-				<a href="//linkedin.com/in/arhaanb" target="_blank" rel="noopener noreferrer">
+				<a
+					href="//linkedin.com/in/arhaanb"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					<carbon-logo-linkedin />
 				</a>
 
-				<a href="//behance.net/arhaanbahadur" target="_blank" rel="noopener noreferrer">
+				<a
+					href="//behance.net/arhaanbahadur"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					<bx-bxl-behance />
 				</a>
 
-				<a href="mailto:arhaanb@gmail.com" rel="noopener noreferrer" target="_blank">
+				<a
+					href="mailto:arhaanb@gmail.com"
+					rel="noopener noreferrer"
+					target="_blank"
+				>
 					<!-- hi@arhaanb.co -->
 					<bx-bx-mail-send />
 				</a>
@@ -63,7 +92,8 @@ export default {
 .forofour {
 	border: none;
 	opacity: 1;
-	color: rgb(8, 75, 119);
+	color: var(--red-text);
+	/* color: rgb(8, 75, 119); */
 	transition: 0.2s;
 }
 
@@ -93,6 +123,11 @@ p {
 .yo a {
 	padding: 0.35em;
 	font-size: 1.1em;
+	transition: 0.2s;
+}
+
+.yo a:hover {
+	color: chocolate;
 }
 
 .title {
