@@ -11,13 +11,22 @@
 		</a>
 		<div id="spotifycontainer">
 			<h5 v-if="spotify && spotify.isPlaying" class="title spotifytitle">
-				<a rel="noopener noreferrer" class="green" :href="spotify.songUrl" target="_blank">
-					<span :title="spotify.title">{{ spotify.title }}</span>
+				<a
+					rel="noopener noreferrer"
+					class="green"
+					:href="spotify.songUrl"
+					target="_blank"
+				>
+					<span :title="spotify.title">{{
+						spotify?.cleanTitle || spotify?.title
+					}}</span>
 				</a>
 			</h5>
 			<h5 class="title not" v-else>Not playing</h5>
 			<h5 v-if="spotify" class="artist spotifytitle">
-				<span v-if="spotify.isPlaying" :title="spotify.artist">{{ spotify.artist }}</span>
+				<span v-if="spotify.isPlaying" :title="spotify.artist">{{
+					spotify.artist
+				}}</span>
 			</h5>
 		</div>
 	</main>

@@ -36,8 +36,12 @@
 					<div class="navdata">
 						<div class="flexer">
 							<router-link to="/" @click="nav = !nav">Home</router-link>
-							<router-link to="/projects" @click="nav = !nav">Projects</router-link>
-							<router-link to="/explore" @click="nav = !nav">Explore</router-link>
+							<router-link to="/projects" @click="nav = !nav"
+								>Projects</router-link
+							>
+							<router-link to="/explore" @click="nav = !nav"
+								>Explore</router-link
+							>
 						</div>
 
 						<!-- <div class="btm">Arhaan Bahadur</div> -->
@@ -77,7 +81,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import "vue3-notion/dist/style.css"; /* optional Notion-like styles */
+@import 'vue3-notion/dist/style.css'; /* optional Notion-like styles */
 
 .navbar .navcont,
 .navcont .topsec {
