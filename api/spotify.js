@@ -1,4 +1,6 @@
 import { getNowPlaying } from '../lib/spotify'
+var Filter = require('bad-words'),
+	filter = new Filter()
 
 export default async (_, res) => {
 	if (process.env.ENABLE_SPOTIFY == 'true') {
@@ -14,6 +16,7 @@ export default async (_, res) => {
 		const title = song?.item.name
 		const artist = song?.item.artists.map((_artist) => _artist.name).join(', ')
 		const album = song?.item.album.name
+		const cleanTitle = filter.clean(song?.item.name || '')
 		if (song?.item.album.images.length > 0) {
 			albumImageUrl = song?.item?.album?.images[0]?.url
 		}
@@ -28,7 +31,8 @@ export default async (_, res) => {
 				artist,
 				isPlaying,
 				songUrl,
-				title
+				title,
+				cleanTitle
 			})
 		} else {
 			return res.status(200).json({
