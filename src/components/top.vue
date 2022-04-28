@@ -1,7 +1,13 @@
 <template>
 	<div>
 		<h5 class="smltitle zero">Top Tracks</h5>
-		<p>My top tracks from Spotify this month</p>
+		<p>
+			My top tracks from
+			<a href="https://open.spotify.com/user/arhaanb" target="_blank"
+				>Spotify</a
+			>
+			this month
+		</p>
 
 		<div v-if="songs">
 			<div
@@ -9,7 +15,12 @@
 				:key="song.songUrl"
 				data-aos="fade-right"
 			>
-				<a rel="noopener noreferrer" target="_blank" :href="song.songUrl">
+				<a
+					class="yah"
+					rel="noopener noreferrer"
+					target="_blank"
+					:href="song.songUrl"
+				>
 					<div class="song">
 						<div class="flex">
 							<h1 class="index noselect mono">{{ index + 1 }}</h1>
@@ -86,11 +97,11 @@ export default {
 </script>
 
 <style scoped lang="scss">
-a {
+a.yah {
 	border-bottom: 1px dashed rgba(34, 34, 34, 0.4);
 	transition: 0.3s;
 }
-a:hover {
+a.yah:hover {
 	background-color: rgba(127, 255, 212, 0.26);
 }
 .song {
