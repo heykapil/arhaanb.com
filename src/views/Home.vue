@@ -89,7 +89,7 @@
 					<img
 						draggable="false"
 						loading="lazy"
-						src="/sqr.png"
+						src="/me.jpg"
 						alt="me irl (fr)"
 						class="topimg"
 						style="width: 100%; margin-top: 3em; border-radius: 0.5em"
