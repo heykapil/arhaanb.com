@@ -22,7 +22,11 @@
 					}}</span>
 				</a>
 			</h5>
-			<h5 class="title not" v-else>Not playing</h5>
+			<h5 class="title not" v-else>
+				<a href="//open.spotify.com/user/arhaanb" target="_blank"
+					>Spotify &mdash; Not playing</a
+				>
+			</h5>
 			<h5 v-if="spotify" class="artist spotifytitle">
 				<span v-if="spotify.isPlaying" :title="spotify.artist">{{
 					spotify.artist
