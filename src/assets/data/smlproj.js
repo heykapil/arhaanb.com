@@ -1,6 +1,12 @@
 const projects = {
 	projects: [
 		{
+			title: 'arhn.us',
+			desc: 'A URL shortener based on Vercel and Airtable.',
+			link: 'https://github.com/arhaanb/arhn.us',
+			img: 'https://res.cloudinary.com/arhaanb/image/upload/arhn.us.png'
+		},
+		{
 			title: 'Ponder',
 			desc: 'A mobile app to help creative professionals focus, and think better.',
 			link: 'https://arhaanbahadur.co/ponder',
@@ -13,22 +19,22 @@ const projects = {
 			img: 'https://res.cloudinary.com/arhaanb/image/upload/safar.png'
 		},
 		{
-			title: 'Elire',
-			desc: 'A secure, digital platform for voting during the pandemic.',
-			link: 'https://github.com/arhaanb/elire',
-			img: 'https://res.cloudinary.com/arhaanb/image/upload/elire.png'
-		},
-		{
-			title: 'arhn.us',
-			desc: 'A URL shortener based on Vercel and Airtable.',
-			link: 'https://github.com/arhaanb/arhn.us',
-			img: 'https://res.cloudinary.com/arhaanb/image/upload/arhn.us.png'
-		},
-		{
 			title: 'MISMUN',
 			desc: 'Brand and Website for the Online Model United Nations event held at MIS.',
 			link: 'https://minet.co/mismun',
 			img: 'https://res.cloudinary.com/arhaanb/image/upload/mismun.png'
+		},
+		{
+			title: 'Sabre from The Office',
+			desc: 'Redesign of the printer company from the TV Show &mdash; The Office.',
+			link: 'https://www.behance.net/gallery/101922959/Sabre-%28from-The-Office%29-Redesigned',
+			img: 'https://res.cloudinary.com/arhaanb/image/upload/sabre.png'
+		},
+		{
+			title: 'Elire',
+			desc: 'A secure, digital platform for voting during the pandemic.',
+			link: 'https://github.com/arhaanb/elire',
+			img: 'https://res.cloudinary.com/arhaanb/image/upload/elire.png'
 		},
 		{
 			title: 'Shiksha',
@@ -53,12 +59,6 @@ const projects = {
 			desc: 'Portfolio website made for a Cybersecurity Enthusiast.',
 			link: 'https://dhruvagoyal.com',
 			img: 'https://res.cloudinary.com/arhaanb/image/upload/v1622960008/dhruva.png'
-		},
-		{
-			title: 'Sabre from The Office',
-			desc: 'Redesign of the printer company from the TV Show &mdash; The Office.',
-			link: 'https://www.behance.net/gallery/101922959/Sabre-%28from-The-Office%29-Redesigned',
-			img: 'https://res.cloudinary.com/arhaanb/image/upload/sabre.png'
 		},
 		{
 			title: 'Kuizu',
