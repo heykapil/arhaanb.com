@@ -1,5 +1,20 @@
 {
 	"rewrites": [
+		{ "source": "/resume", "destination": "https://arhn.us/resume" },
+		{
+			"source": "/spotify",
+			"destination": "https://open.spotify.com/user/arhaanb"
+		},
+		{
+			"source": "/twitter",
+			"destination": "https://twitter.com/arhaanbahadur"
+		},
+		{ "source": "/twt", "destination": "https://twitter.com/arhaanbahadur" },
+		{ "source": "/ig", "destination": "https://instagram.com/arhaan_bahadur" },
+		{
+			"source": "/instagram",
+			"destination": "https://instagram.com/arhaan_bahadur"
+		},
 		{
 			"source": "/ponder/:match*",
 			"destination": "https://ponder.vercel.app/:match*"
