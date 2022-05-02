@@ -5,7 +5,8 @@ fi
 		<p class="zero">
 			<!-- These are some of the major projects I've built over the last couple of
 			years.-->
-			Building fun stuff with a focus on good UX.
+			Building fun stuff with a focus on good UX. Some of the major projects
+			I've worked on over the last few years.
 		</p>
 		<div class="bigproj">
 			<Project
@@ -18,7 +19,7 @@ fi
 			<Project
 				name="Sahay"
 				description="A collaborative experience for hospital management."
-				link="https://sahay.us"
+				link="https://sahay.arhn.us"
 				img="https://res.cloudinary.com/arhaanb/image/upload/smlsahay.png"
 				data-aos-delay="100"
 			/>
@@ -65,8 +66,7 @@ fi
 			<div @mouseover="hover = false">
 				<h2 class="othsmlproj">Other small projects</h2>
 				<p>
-					I made some of these projects as a
-					<i>freelancer</i>, or to help me
+					I made some of these projects as a <i>freelancer</i>, or to help me
 					automate some of my manual tiring work. There's also some
 					<i>little apps</i> I made just to test out a new technology or
 					framework that I was interested in learning.
@@ -105,7 +105,8 @@ fi
 							rel="noopener noreferrer"
 							href="//github.com/arhaanb"
 							target="_blank"
-						>GitHub (@arhaanb)</a>
+							>GitHub (@arhaanb)</a
+						>
 						for more. Most of my projects are open source.
 					</p>
 				</div>
