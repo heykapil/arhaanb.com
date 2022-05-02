@@ -1,5 +1,5 @@
 {
-	"rewrites": [
+	"redirects": [
 		{ "source": "/resume", "destination": "https://arhn.us/resume" },
 		{
 			"source": "/spotify",
@@ -14,7 +14,9 @@
 		{
 			"source": "/instagram",
 			"destination": "https://instagram.com/arhaan_bahadur"
-		},
+		}
+	],
+	"rewrites": [
 		{
 			"source": "/ponder/:match*",
 			"destination": "https://ponder.vercel.app/:match*"
