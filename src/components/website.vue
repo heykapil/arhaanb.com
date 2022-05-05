@@ -28,7 +28,7 @@
 				href="//github.com/arhaanb/arhaanb.com"
 				target="_blank"
 			>
-				github.com/<wbr />arhaanb/<wbr />website</a
+				github.com/<wbr />arhaanb/<wbr />arhaanb.com</a
 			>. Leave a star!
 		</p>
 	</div>
