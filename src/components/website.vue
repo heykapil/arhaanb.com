@@ -3,7 +3,7 @@
 		<h5 class="smltitle">
 			<a
 				rel="noopener noreferrer"
-				href="https://github.com/arhaanb/website#readme"
+				href="https://github.com/arhaanb/arhaanb.com#readme"
 				target="_blank"
 				>About this website</a
 			>
@@ -25,7 +25,7 @@
 			website is Open Sourced at
 			<a
 				rel="noopener noreferrer"
-				href="//github.com/arhaanb/website"
+				href="//github.com/arhaanb/arhaanb.com"
 				target="_blank"
 			>
 				github.com/<wbr />arhaanb/<wbr />website</a

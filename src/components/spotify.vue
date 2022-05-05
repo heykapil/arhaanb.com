@@ -10,14 +10,14 @@
 			<img src="@/assets/img/spotify.svg" alt="Spotify Icon" />
 		</a>
 		<div id="spotifycontainer">
-			<h5 v-if="spotify && spotify.isPlaying" class="title spotifytitle">
+			<h5 v-if="spotify && spotify?.isPlaying" class="title spotifytitle">
 				<a
 					rel="noopener noreferrer"
 					class="green"
-					:href="spotify.songUrl"
+					:href="spotify?.songUrl"
 					target="_blank"
 				>
-					<span :title="spotify.title">{{
+					<span :title="spotify?.title">{{
 						spotify?.cleanTitle || spotify?.title
 					}}</span>
 				</a>
@@ -28,8 +28,8 @@
 				>
 			</h5>
 			<h5 v-if="spotify" class="artist spotifytitle">
-				<span v-if="spotify.isPlaying" :title="spotify.artist">{{
-					spotify.artist
+				<span v-if="spotify?.isPlaying" :title="spotify?.artist || 'Unknown'">{{
+					spotify?.artist || 'Unknown'
 				}}</span>
 			</h5>
 		</div>
@@ -41,7 +41,7 @@ import useSWRV from 'swrv'
 var url = ''
 
 if (process.env.NODE_ENV == 'development') {
-	url = 'https://arhaanbahadur.co/api/spotify'
+	url = 'https://arhnapi.vercel.app/api/spotify'
 } else {
 	url = '/api/spotify'
 }

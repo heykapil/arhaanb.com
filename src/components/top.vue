@@ -78,7 +78,7 @@ export default {
 	methods: {
 		getSongs() {
 			if (process.env.NODE_ENV == 'development') {
-				url = 'https://arhaanbahadur.co/api/top-tracks'
+				url = 'https://arhnapi.vercel.app/api/top-tracks'
 			} else {
 				url = '/api/top-tracks'
 			}
