@@ -16,13 +16,13 @@
 			is built with Vue 3 and Vite.
 		</p>
 		<p>
-			It's been deployed to
+			The website has been deployed to
 			<a rel="noopener noreferrer" href="//vercel.com" target="_blank"
 				>Vercel</a
 			>
-			and it takes advantage of it's serverless functions for features like the
-			realtime Spotify currently playing indicator and contact form. This
-			website is Open Sourced at
+			and it takes advantage of its serverless functions for features like the
+			realtime Spotify currently playing indicator and contact form. It's Open
+			Sourced at
 			<a
 				rel="noopener noreferrer"
 				href="//github.com/arhaanb/arhaanb.com"
