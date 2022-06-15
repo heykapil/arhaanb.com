@@ -65,14 +65,33 @@
 
 		<div class="cont" style="max-width: 43em">
 			<br />
-			<Page data-aos="fade-up" title="Portfolio" to="/projects" desc="I like to build stuff" />
-			<Page data-aos="fade-up" data-aos-delay="100" title="Explore" to="/explore" desc="More arhaanb" />
+			<Page
+				data-aos="fade-up"
+				title="Portfolio"
+				to="/projects"
+				desc="I build stuff"
+			/>
+			<Page
+				data-aos="fade-up"
+				data-aos-delay="100"
+				title="Explore"
+				to="/explore"
+				desc="More arhaanb"
+			/>
 			<Page
 				data-aos="fade-up"
 				data-aos-delay="150"
 				title="Contact"
 				to="/explore#contact"
 				desc="Let's talk"
+			/>
+			<Page
+				data-aos="fade-up"
+				data-aos-delay="200"
+				title="Resume"
+				to="https://arhaanb.com/resume"
+				desc="What I've been up to"
+				ext
 			/>
 			<!-- <Page
 				data-aos="fade-up"
@@ -94,7 +113,7 @@
 						class="topimg"
 						style="width: 100%; margin-top: 3em; border-radius: 0.5em"
 					/>
-					<h6 class="center" style="opacity: 0.7">me irl</h6>
+					<h6 class="center" style="opacity: 0.7">me :)</h6>
 				</div>
 			</div>
 		</div>

@@ -1,10 +1,15 @@
 <template>
 	<div>
-		<router-link :to="to ? to : '/'" class="flexer">
+		<router-link v-if="!ext" :to="to ? to : '/'" class="flexer">
 			<h5 class="main">{{ title ? title : 'Title' }}</h5>
 			<!-- <h5 class="sep">|</h5> -->
 			<h5 class="desc">{{ desc ? desc : null }}</h5>
 		</router-link>
+		<a v-else target="_blank" :href="to ? to : '/'" class="flexer">
+			<h5 class="main">{{ title ? title : 'Title' }}</h5>
+			<!-- <h5 class="sep">|</h5> -->
+			<h5 class="desc">{{ desc ? desc : null }}</h5>
+		</a>
 	</div>
 </template>
 
@@ -13,7 +18,8 @@ export default {
 	props: {
 		title: String,
 		to: String,
-		desc: String
+		desc: String,
+		ext: Boolean
 	}
 }
 </script>
