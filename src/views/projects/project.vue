@@ -42,6 +42,27 @@ onMounted(async () => {
 	font-style: italic;
 }
 
+.notion-hr {
+	border: none !important;
+	width: 100%;
+	height: 0.05em;
+	background-color: #222;
+	opacity: 0.3;
+}
+
+.notion-blank {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.notion-image-inset {
+	border-radius: 0.25em;
+}
+
 .errnotion {
 	margin-top: -5em;
 	margin-bottom: 11em;
