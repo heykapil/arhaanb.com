@@ -6,5 +6,17 @@ export const projects = [
 	{
 		id: 'notion',
 		notion: 'bc97b55870d9479181facc653dd9a6f6'
+	},
+	{
+		id: 'payout',
+		notion: 'd5a420fa864a49498b87e7c19443ab4e'
+	},
+	{
+		id: 'linkplusai',
+		notion: '55fa925af22c498d95b40eba242bbcb3'
+	},
+	{
+		id: 'sahay',
+		notion: '5c254023a8a0454786dc86f304f9b6a4'
 	}
 ]
