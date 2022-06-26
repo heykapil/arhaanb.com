@@ -22,7 +22,7 @@ onMounted(async () => {
 				<Fourerr nosocials />
 			</div>
 		</div>
-		<div class="cont" v-if="data">
+		<div class="cont notionblog" v-if="data">
 			<NotionRenderer :blockMap="data" fullPage prism katex />
 			<br />
 		</div>
@@ -34,6 +34,25 @@ onMounted(async () => {
 
 <style>
 /* override notion styles */
+ul.notion-list {
+	padding-inline-start: 0;
+	list-style-position: outside;
+}
+
+.notion-callout .notion-emoji {
+	font-size: 1.5em;
+	line-height: 1.235em;
+}
+
+.notionblog p a:hover {
+	background-color: none !important;
+	color: aqua !important;
+}
+
+.notion-title {
+	margin-bottom: 0.2em;
+}
+
 .notion-h1 {
 	margin-bottom: 0.3em !important;
 }
