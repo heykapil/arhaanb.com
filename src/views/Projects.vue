@@ -17,11 +17,19 @@ fi
 			/>
 
 			<Project
+				name="PAYOUT."
+				description="An equity-based crowdfunding platform for investing in Startups. <i>Get funded, quick.</i>"
+				img="https://i.ibb.co/x65MT8J/Frame-78.png"
+				link="/p/payout"
+				intlink
+				data-aos-delay="100"
+			/>
+
+			<Project
 				name="Sahay"
 				description="A collaborative experience for hospital management."
 				link="https://sahay.arhn.us"
 				img="https://res.cloudinary.com/arhaanb/image/upload/smlsahay.png"
-				data-aos-delay="100"
 			/>
 
 			<Project
@@ -34,8 +42,9 @@ fi
 			<Project
 				name="Link+AI"
 				description="A mobile app to help you improve your LinkedIn profile and view beautiful stats."
-				link="https://linkplusai.com"
 				img="https://res.cloudinary.com/arhaanb/image/upload/linkplus.png"
+				link="/p/linkplusai"
+				intlink
 			/>
 
 			<Project

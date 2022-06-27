@@ -39,6 +39,14 @@ ul.notion-list {
 	list-style-position: outside;
 }
 
+img {
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
+	-moz-user-drag: none;
+	-o-user-drag: none;
+	user-drag: none;
+}
+
 .notion-callout .notion-emoji {
 	font-size: 1.5em;
 	line-height: 1.235em;
@@ -46,7 +54,7 @@ ul.notion-list {
 
 .notionblog p a:hover {
 	background-color: none !important;
-	color: aqua !important;
+	/* color: aqua !important; */
 }
 
 .notion-title {
