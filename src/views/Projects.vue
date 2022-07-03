@@ -19,7 +19,7 @@ fi
 			<Project
 				name="PAYOUT."
 				description="An equity-based crowdfunding platform for investing in Startups. <i>Get funded, quick.</i>"
-				img="https://i.ibb.co/x65MT8J/Frame-78.png"
+				img="https://res.cloudinary.com/arhaanb/image/upload/v1656856077/payout.png"
 				link="/p/payout"
 				intlink
 				data-aos-delay="100"
